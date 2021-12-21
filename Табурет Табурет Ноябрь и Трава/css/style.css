@@ -1,0 +1,392 @@
+* {
+    margin:0; 
+    padding: 0;
+    box-sizing:border-box; 
+}
+    
+html,body {
+    height: 100%; 
+}
+
+header, main, footer {
+    width: 1040px;
+    margin: 0 auto;
+}
+      
+#wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+}
+    
+header{
+    height:120px;
+    
+
+}
+    
+main{
+    padding-bottom: 100px;
+}
+    
+footer{
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+}
+
+body{
+    background-color: rgb(84, 49, 126);
+    color:white;
+    font-family: 'Oswald', 'Verdana', 'Arial', 'Helvetica', sans-serif;
+}
+
+.main__img--float{
+    width: 800px;
+    margin: 10px auto 20px;
+    display: block;
+    font-size: inherit;
+}
+
+.formattxt{
+    margin: 10px auto 20px;
+    font-size: inherit;
+    display: block;
+    width: 400px;
+}
+
+.main__img--float1{
+    width: 550px;
+    float: left;
+    margin-right: 40px;
+}
+
+#panorama {
+    width: 100%;
+    height: 150px;
+    background: url(../img/2.jpg) no-repeat center 70%;
+    background-size: cover; /*масштабирование фона*/
+}
+.services_img {
+    
+    width:240px;
+    height: 310px;
+
+}
+.services_item{
+    width:240px;
+    margin: 0 40px 0 40px;
+    float: left;
+}
+.services{
+    margin:35px;
+    
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.h1-invisible{
+    visibility: hidden;
+}
+
+.small_img {
+    width: 50px;
+    float: right;
+    margin: 5px;
+}
+.copy{
+    text-align:center;
+    font-size: 25px;
+}
+
+#redline{
+    color:pink;
+    text-decoration: none;
+    
+
+}
+#redline p{
+    color:pink;
+    text-decoration: none;
+}
+
+#redline p:hover{
+    text-decoration: underline;
+    color: pink;
+}
+
+.text_right{
+    float: left;
+    font-size: 25px;
+}
+.colortxt{
+    color:palevioletred;
+}
+
+.vizitka{
+    font-size: 25px;
+}
+
+.kontakt{
+    margin: 10px auto 20px;
+    font-size: initial;
+}
+
+#panorama2 {
+    width: 100%;
+    height: 150px;
+    background: url(../content/задник.png) no-repeat center 70%;
+    background-size: cover; /*масштабирование фона*/
+}
+
+#logo{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 24px;
+
+}
+
+.pink{
+    color: pink;
+}
+
+.footer__block{
+    display: inline-block;
+    width: 335px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.footer__icons{
+    display: inline-block;
+    width: 335px;
+    text-align: right;
+    
+}
+
+.footer__img{
+    width: 50px;
+    margin: 10px;
+
+}
+
+mark{
+    background-color: violet;
+}
+
+.kontakttxt{
+    text-align: center;
+    font-size: inherit;
+    margin: 10px auto 20px;
+}
+
+.center{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.serif{
+    font-family: Times, 'Times New Roman', Georgia, serif;
+}
+.sans-serif{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.monospace{
+    font-family: 'Lucida Console', Courier, monospace;
+}
+
+h2{
+    font-family: 'Russo One', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+#mainnav ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -51px;
+}
+
+#mainnav li{
+    display: inline;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#mainnav a{
+    text-decoration: none;
+    margin-right: 45px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: -webkit-linear-gradient(right, #b156e6 0, #b927dd 33.3%, #6f11a5 33.3%, #5f1766 66.6%, #420c4d 66.6%, #3b0846) bottom no-repeat;
+    background: -o-linear-gradient(right, #b156e6 0, #b927dd 33.3%, #6f11a5 33.3%, #5f1766 66.6%, #420c4d 66.6%, #3b0846) bottom no-repeat;
+    background: linear-gradient(to right, #b156e6 0, #b927dd 33.3%, #6f11a5 33.3%, #5f1766 66.6%, #420c4d 66.6%, #3b0846) bottom no-repeat;
+    background-size: 70% 5px;
+    transition: 0.3s;
+}
+
+#mainnav a:hover{
+    background-size: 100% 5px;
+    
+}
+
+#mainnav li.active a{
+    font-weight: bold;
+}
+
+.new::after{
+    content:"new";
+    font-size: 10px;
+    vertical-align: super;
+    background-color: violet;
+    border: 2px;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+    border-top: 2px solid white;;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.price th:first-child{
+    width: 10%;
+
+}
+
+.price th:nth-child(2),.price th:last-child{
+    width: 25%;
+}
+.price tr:nth-child(even){
+    background-color: rgb(216, 163, 216);
+}
+
+.price th:first-child,.price th:nth-child(2), .price th:nth-child(3), .price th:last-child{
+    border-bottom: 5px  solid #ee96e2;
+    border-top:5px  solid #ee96e2; 
+
+}
+caption{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#mainfooter a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#mainfooter a:hover{
+    text-decoration: underline;
+}
+
+#contact-form input[type="text"], input[type="tel"], input[type="date"], input[type="email"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+
+#topic{
+    height: 20px;
+    width: 250px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+
+#contact-form input[type="submit"], input[type="reset"]{
+    height: 30px;
+    width: 124px;
+
+    border: purple solid 1px;
+    border-radius: 5px;
+    background-color:rgb(105, 51, 160);
+    text-align: center;
+    font-size: 19px;
+
+}
+
+#contact-form input[type="submit"]:hover, input[type="reset"]:hover{
+    height: 30px;
+    width: 124px;
+
+    border: purple solid 1px;
+    border-radius: 5px;
+    background-color:rgb(94, 12, 80);
+    text-align: center;
+    font-size: 19px;
+
+}
+
+#enter{
+    height: 20px;
+    width: 250px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+
+.logotype{
+    float: left;
+    margin-top: 5px;
+    width: 60px;
+}
+.Mami{
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.daramaramura{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.udovtvr{
+    margin-top: 30px;
+}
+
+.imgstart{
+    width: 400px;
+    margin: 10px auto 20px;
+    display: block;
+    font-size: inherit;
+}
+
+.crossword{
+    width: 800px;
+    margin: 10px auto 20px;
+    display: block;
+    font-size: inherit;
+}
+
+#otvet{
+    margin-top: 50px;
+}
